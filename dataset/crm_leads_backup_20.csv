@@ -1,0 +1,21 @@
+lead_id,source,industry,employee_count,expected_revenue,interactions,lead_age_days,outcome
+1,Website,IT,50,50000,8,10,Won
+2,Cold Call,Manufacturing,200,100000,2,45,Lost
+3,Referral,Healthcare,100,75000,7,15,Won
+4,Email,Education,30,25000,3,40,Lost
+5,LinkedIn,IT,150,90000,9,12,Won
+6,Cold Call,Retail,20,15000,1,50,Lost
+7,Website,Finance,300,120000,10,8,Won
+8,Referral,IT,80,60000,6,20,Won
+9,Email,Healthcare,60,40000,2,35,Lost
+10,LinkedIn,Manufacturing,250,110000,8,18,Won
+11,Website,Retail,40,30000,5,25,Won
+12,Cold Call,Education,25,20000,1,55,Lost
+13,Referral,Finance,180,95000,9,14,Won
+14,Email,IT,70,55000,3,38,Lost
+15,Website,Healthcare,120,80000,7,16,Won
+16,Cold Call,Manufacturing,90,65000,2,42,Lost
+17,LinkedIn,Finance,220,105000,8,19,Won
+18,Email,Retail,35,18000,2,48,Lost
+19,Referral,Education,100,70000,6,22,Won
+20,Website,IT,200,130000,10,7,Won

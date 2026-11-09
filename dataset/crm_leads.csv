@@ -1,0 +1,501 @@
+lead_id,source,industry,employee_count,expected_revenue,interactions,lead_age_days,outcome
+1,Website,IT,769,154194,4,29,Won
+2,Cold Call,Finance,114,364785,12,70,Won
+3,Website,Retail,442,26663,1,12,Lost
+4,Cold Call,Manufacturing,527,325631,1,72,Lost
+5,Cold Call,Finance,675,377696,9,54,Won
+6,Cold Call,Education,613,155852,13,1,Won
+7,Cold Call,Finance,442,188389,5,20,Won
+8,Cold Call,Healthcare,114,58625,7,13,Won
+9,Referral,Healthcare,628,148685,13,6,Won
+10,Email,Retail,137,493548,7,11,Won
+11,LinkedIn,Healthcare,859,339588,10,47,Won
+12,LinkedIn,Manufacturing,731,46466,1,85,Lost
+13,Cold Call,Healthcare,91,458432,4,13,Won
+14,Email,Healthcare,474,343281,14,47,Won
+15,Cold Call,Healthcare,373,119842,11,35,Won
+16,Website,Retail,660,99725,9,32,Won
+17,Cold Call,Education,398,151530,15,82,Won
+18,LinkedIn,Manufacturing,711,180017,14,8,Won
+19,Cold Call,IT,834,175388,7,35,Won
+20,Website,Manufacturing,945,307365,15,41,Won
+21,Cold Call,Finance,521,217425,15,83,Won
+22,Email,Manufacturing,281,83206,4,72,Lost
+23,LinkedIn,Healthcare,774,316491,7,75,Won
+24,Email,Healthcare,234,82525,9,64,Won
+25,Website,IT,891,67487,3,81,Lost
+26,Cold Call,Finance,442,322690,2,50,Lost
+27,Email,Retail,489,287408,5,71,Lost
+28,Website,Finance,748,70058,11,69,Won
+29,Referral,Finance,358,68485,5,56,Lost
+30,Cold Call,Education,13,388584,15,34,Won
+31,LinkedIn,Manufacturing,529,488479,2,81,Lost
+32,Referral,Finance,529,329275,4,20,Won
+33,Referral,Manufacturing,562,418224,15,68,Won
+34,Website,Retail,341,266170,1,15,Lost
+35,Referral,Healthcare,255,40369,4,73,Lost
+36,Website,IT,759,264798,14,9,Won
+37,LinkedIn,Manufacturing,141,355899,8,71,Won
+38,Cold Call,Healthcare,550,467406,10,55,Won
+39,Cold Call,Retail,783,392694,12,26,Won
+40,Referral,Education,697,350723,6,57,Won
+41,LinkedIn,Education,133,139973,4,9,Lost
+42,Referral,IT,612,300414,4,76,Won
+43,Cold Call,IT,82,381112,11,8,Won
+44,Cold Call,IT,937,26469,14,43,Won
+45,Website,Retail,253,156002,11,63,Won
+46,Cold Call,Retail,145,389245,15,74,Won
+47,LinkedIn,Education,258,421366,8,53,Won
+48,Cold Call,IT,109,355496,7,46,Won
+49,Email,Education,488,462899,12,7,Won
+50,Website,IT,422,391793,6,14,Won
+51,Cold Call,Manufacturing,204,291168,8,18,Won
+52,Email,Manufacturing,295,252550,4,10,Lost
+53,Email,Retail,110,36522,11,70,Won
+54,Website,IT,958,405085,14,31,Won
+55,Cold Call,Education,507,262370,4,52,Lost
+56,Website,Manufacturing,398,11130,7,34,Won
+57,Email,Healthcare,443,375214,12,72,Won
+58,Email,Manufacturing,204,165560,4,8,Lost
+59,LinkedIn,Finance,565,41959,12,41,Won
+60,Website,IT,608,259974,9,68,Won
+61,Cold Call,IT,993,276248,2,24,Lost
+62,Website,Retail,79,364005,14,31,Won
+63,Email,IT,974,476766,10,32,Won
+64,LinkedIn,Retail,50,334734,2,54,Lost
+65,LinkedIn,Retail,545,175868,15,34,Won
+66,Cold Call,Finance,743,174722,4,34,Lost
+67,Email,Manufacturing,697,348428,5,59,Won
+68,Referral,IT,19,250273,10,73,Won
+69,Website,IT,560,121754,9,34,Won
+70,Cold Call,Healthcare,912,46066,15,32,Won
+71,Referral,Healthcare,171,239734,14,70,Won
+72,Referral,Retail,836,352871,9,2,Won
+73,LinkedIn,Healthcare,964,357806,2,18,Won
+74,Referral,IT,921,66117,12,71,Won
+75,Cold Call,Healthcare,298,327105,4,44,Lost
+76,Cold Call,Finance,659,457171,5,65,Won
+77,Email,Healthcare,937,486136,14,7,Won
+78,Website,Finance,443,444817,5,6,Won
+79,Website,Healthcare,799,78587,11,34,Won
+80,Cold Call,Finance,462,299239,12,55,Won
+81,LinkedIn,IT,124,49449,15,89,Won
+82,Cold Call,Retail,46,447568,6,75,Lost
+83,LinkedIn,Manufacturing,450,76818,1,40,Lost
+84,Referral,IT,930,197595,4,88,Won
+85,Cold Call,Finance,115,195429,13,72,Won
+86,Email,Retail,777,91030,15,31,Won
+87,Cold Call,Manufacturing,912,226161,1,23,Lost
+88,Referral,Education,831,361224,14,32,Won
+89,Referral,Manufacturing,816,377671,2,49,Won
+90,Website,Education,237,114633,14,59,Won
+91,Referral,Healthcare,850,426990,14,30,Won
+92,Cold Call,IT,685,111255,7,43,Won
+93,Referral,IT,1000,415445,5,45,Won
+94,LinkedIn,Education,705,452321,9,43,Won
+95,Website,IT,908,146951,3,75,Lost
+96,Referral,IT,121,322775,7,45,Won
+97,Referral,Education,630,278132,2,50,Lost
+98,LinkedIn,Manufacturing,270,33271,12,56,Won
+99,Website,Retail,957,432843,9,88,Won
+100,Cold Call,Healthcare,451,46686,11,43,Won
+101,LinkedIn,Healthcare,689,454604,2,39,Lost
+102,LinkedIn,Healthcare,692,224115,6,52,Won
+103,Referral,Retail,140,110579,7,86,Lost
+104,Email,Finance,776,483330,3,79,Lost
+105,LinkedIn,Healthcare,425,297276,14,1,Won
+106,Referral,Healthcare,225,235385,13,75,Won
+107,LinkedIn,Finance,339,253787,8,57,Won
+108,Cold Call,Retail,494,426145,15,22,Won
+109,Website,Healthcare,537,358050,11,80,Won
+110,Referral,IT,848,403812,4,87,Won
+111,Referral,Manufacturing,835,114401,3,4,Won
+112,Website,Manufacturing,496,330483,14,10,Won
+113,Email,Education,917,340178,10,25,Won
+114,Email,Education,419,137918,3,84,Lost
+115,Website,IT,807,232899,4,23,Won
+116,LinkedIn,Education,61,302241,4,16,Lost
+117,Email,Manufacturing,830,253606,11,68,Won
+118,LinkedIn,Retail,334,405968,15,57,Won
+119,LinkedIn,Finance,923,274649,7,71,Won
+120,Email,Manufacturing,771,461671,8,58,Won
+121,Referral,Manufacturing,870,344318,5,67,Won
+122,Email,Finance,254,153968,8,10,Won
+123,Referral,Manufacturing,288,186080,6,70,Won
+124,Website,Manufacturing,164,131247,7,89,Lost
+125,Cold Call,Finance,229,43674,7,53,Lost
+126,Referral,Retail,487,227985,1,27,Lost
+127,Email,Education,936,413594,10,90,Won
+128,Website,Retail,399,260074,1,46,Lost
+129,Referral,Education,883,477476,14,54,Won
+130,LinkedIn,Finance,762,296330,13,78,Won
+131,Cold Call,Education,234,153096,7,63,Lost
+132,Website,Education,354,360682,11,52,Won
+133,Cold Call,Education,951,76913,10,69,Won
+134,Website,Education,616,305903,11,4,Won
+135,Website,Finance,448,81145,14,60,Won
+136,Cold Call,IT,276,208759,6,28,Won
+137,Email,Healthcare,355,409103,15,49,Won
+138,Referral,Education,268,447733,2,61,Lost
+139,Website,Finance,562,37307,6,29,Won
+140,Website,Finance,51,405435,1,32,Lost
+141,Cold Call,IT,646,89892,4,17,Lost
+142,Email,Finance,127,305682,4,60,Lost
+143,Referral,Healthcare,181,327662,10,15,Won
+144,Cold Call,Healthcare,120,313397,1,40,Lost
+145,LinkedIn,Finance,939,206768,7,26,Won
+146,Website,Retail,717,445458,11,32,Won
+147,Website,Finance,801,168116,14,88,Won
+148,LinkedIn,IT,825,306711,13,6,Won
+149,Referral,Retail,448,356827,6,9,Won
+150,LinkedIn,Finance,359,16633,14,54,Won
+151,Email,IT,453,199890,11,59,Won
+152,Cold Call,Education,190,394720,9,84,Won
+153,Referral,Retail,837,492144,9,62,Won
+154,Email,Education,855,393268,10,35,Won
+155,Referral,Manufacturing,860,55436,5,58,Won
+156,Cold Call,Education,593,329989,11,49,Won
+157,Referral,IT,516,456144,6,24,Won
+158,Email,Manufacturing,373,428293,5,44,Won
+159,Referral,Retail,728,471429,5,72,Won
+160,Website,Retail,980,110168,2,31,Lost
+161,Email,Education,578,407496,4,89,Lost
+162,Email,Finance,738,267331,8,3,Won
+163,Website,Healthcare,236,222022,12,32,Won
+164,Referral,Finance,605,203472,8,71,Won
+165,LinkedIn,Healthcare,445,401084,9,43,Won
+166,Referral,Finance,474,152038,5,33,Won
+167,Cold Call,IT,748,110969,6,16,Won
+168,LinkedIn,Finance,199,110422,4,62,Lost
+169,Referral,Finance,613,408567,9,77,Won
+170,Referral,IT,862,111773,5,30,Won
+171,Referral,Manufacturing,319,17417,12,69,Won
+172,Cold Call,Healthcare,56,38587,9,38,Won
+173,Cold Call,Finance,899,404679,8,14,Won
+174,Website,Retail,301,256099,8,57,Won
+175,Referral,Manufacturing,998,36936,5,62,Won
+176,Website,IT,420,267816,2,74,Lost
+177,Website,Manufacturing,162,435272,10,39,Won
+178,Website,Manufacturing,131,302590,13,54,Won
+179,LinkedIn,Retail,819,334229,4,67,Lost
+180,Email,Education,940,242113,5,76,Lost
+181,Email,Healthcare,592,335597,1,79,Lost
+182,Website,Manufacturing,650,120637,5,85,Lost
+183,Website,Manufacturing,255,101128,9,10,Won
+184,Cold Call,IT,428,246193,12,77,Won
+185,Email,Healthcare,43,131360,5,37,Lost
+186,Email,IT,713,132381,15,34,Won
+187,LinkedIn,Finance,833,499511,4,55,Won
+188,Website,Retail,240,349547,3,35,Lost
+189,Cold Call,IT,71,96991,13,40,Won
+190,LinkedIn,Finance,854,308428,15,37,Won
+191,Email,IT,489,371065,5,90,Lost
+192,Email,Healthcare,522,293105,8,57,Won
+193,Website,Retail,50,476313,7,42,Won
+194,LinkedIn,Healthcare,36,57881,4,87,Lost
+195,LinkedIn,Retail,983,20876,13,87,Won
+196,Referral,Retail,51,410088,13,23,Won
+197,Email,Retail,677,241855,15,36,Won
+198,Cold Call,Retail,456,342810,14,63,Won
+199,Website,Education,366,224092,6,42,Won
+200,Website,Manufacturing,347,225820,12,64,Won
+201,Referral,Finance,977,219952,14,71,Won
+202,Website,Education,100,174897,5,42,Lost
+203,Website,Education,895,279796,14,1,Won
+204,LinkedIn,Education,433,38418,4,67,Lost
+205,Referral,Retail,784,271353,11,57,Won
+206,Website,Manufacturing,283,297949,3,37,Lost
+207,Email,Finance,506,73662,1,81,Lost
+208,LinkedIn,Manufacturing,736,93035,5,71,Lost
+209,Website,Retail,427,58868,4,15,Lost
+210,Email,IT,673,446282,3,64,Lost
+211,Referral,Retail,732,153353,7,62,Won
+212,Email,Manufacturing,477,299021,3,50,Lost
+213,Cold Call,Retail,530,401272,15,18,Won
+214,Website,Healthcare,801,424190,14,54,Won
+215,Referral,Retail,283,440204,1,37,Lost
+216,Referral,Retail,603,355999,8,20,Won
+217,Email,Retail,505,190944,6,71,Lost
+218,LinkedIn,Education,476,499083,6,25,Won
+219,Cold Call,Retail,402,132453,14,53,Won
+220,Website,Healthcare,772,257975,12,49,Won
+221,Email,Finance,821,440308,11,20,Won
+222,Email,IT,139,273345,10,43,Won
+223,Website,Education,112,285749,15,59,Won
+224,Website,Finance,157,224946,14,84,Won
+225,Cold Call,IT,490,419744,5,44,Won
+226,LinkedIn,Finance,417,350701,2,43,Lost
+227,LinkedIn,Education,987,176021,11,63,Won
+228,LinkedIn,IT,642,45872,4,81,Lost
+229,Referral,Manufacturing,774,57384,7,13,Won
+230,Website,Education,180,373856,5,4,Won
+231,Website,Healthcare,825,39422,5,46,Won
+232,Referral,Education,159,138029,9,53,Won
+233,LinkedIn,Finance,821,104401,3,23,Lost
+234,Website,Retail,901,210563,10,88,Won
+235,Cold Call,Education,944,315742,3,30,Won
+236,Email,Finance,270,250947,5,86,Lost
+237,Website,Education,932,160801,11,70,Won
+238,Cold Call,IT,462,191175,10,39,Won
+239,Email,Finance,266,249513,14,39,Won
+240,Cold Call,Education,883,263340,2,31,Lost
+241,Email,Retail,377,311366,5,90,Lost
+242,Referral,IT,859,355101,7,36,Won
+243,Website,Retail,895,369556,13,7,Won
+244,LinkedIn,Finance,518,446647,15,37,Won
+245,Cold Call,Retail,831,194717,4,82,Lost
+246,Cold Call,Retail,266,365343,13,85,Won
+247,Cold Call,Finance,109,483643,11,83,Won
+248,Website,Healthcare,817,241118,1,75,Lost
+249,Referral,Finance,144,57255,15,38,Won
+250,Referral,Finance,435,102085,4,17,Won
+251,LinkedIn,Healthcare,553,273084,15,35,Won
+252,Cold Call,Healthcare,945,442374,8,38,Won
+253,Referral,IT,489,49478,3,29,Lost
+254,Email,Retail,384,57344,13,51,Won
+255,Website,Healthcare,559,74796,8,48,Won
+256,Referral,Retail,400,441183,11,48,Won
+257,Website,Finance,249,257189,1,80,Lost
+258,LinkedIn,Healthcare,947,329858,4,83,Lost
+259,Website,Finance,853,253409,15,90,Won
+260,Referral,Finance,428,71171,3,6,Won
+261,Website,Healthcare,514,70880,2,31,Lost
+262,LinkedIn,Manufacturing,407,247839,6,86,Lost
+263,LinkedIn,Education,611,399162,12,20,Won
+264,Email,Finance,111,447095,8,79,Won
+265,Email,Healthcare,43,371905,6,28,Won
+266,Email,Education,983,133791,14,47,Won
+267,Website,Finance,386,295456,15,83,Won
+268,Referral,IT,417,154641,4,16,Won
+269,Email,IT,688,121204,11,82,Won
+270,LinkedIn,IT,61,422506,6,32,Won
+271,Cold Call,Retail,220,45971,14,71,Won
+272,Cold Call,Retail,231,436273,14,30,Won
+273,Referral,Manufacturing,817,482137,10,1,Won
+274,Referral,Manufacturing,143,293228,5,23,Won
+275,Website,Finance,897,23516,3,2,Won
+276,Referral,Manufacturing,612,179749,1,23,Lost
+277,Referral,IT,139,398873,7,68,Won
+278,Website,Finance,75,259690,8,47,Won
+279,LinkedIn,Retail,121,246981,9,29,Won
+280,LinkedIn,IT,754,420636,15,85,Won
+281,LinkedIn,Healthcare,479,347295,1,8,Lost
+282,Email,Education,446,369712,2,63,Lost
+283,Email,IT,930,52357,6,78,Lost
+284,Cold Call,IT,139,154187,10,82,Won
+285,LinkedIn,Retail,739,180490,7,77,Won
+286,LinkedIn,Healthcare,474,275054,10,56,Won
+287,Website,Finance,127,457108,11,84,Won
+288,LinkedIn,Finance,896,122734,7,58,Won
+289,Cold Call,Education,357,443805,8,52,Won
+290,Email,Finance,107,173865,7,41,Lost
+291,Referral,Healthcare,986,90026,11,61,Won
+292,Website,IT,861,54755,2,56,Lost
+293,Website,Finance,766,205374,13,17,Won
+294,LinkedIn,IT,610,304433,9,43,Won
+295,Website,Education,372,468021,11,55,Won
+296,Website,Healthcare,624,173813,6,14,Won
+297,LinkedIn,Retail,227,91123,11,62,Won
+298,Cold Call,IT,368,453219,9,48,Won
+299,Website,Healthcare,597,128572,13,55,Won
+300,LinkedIn,Retail,638,363882,11,72,Won
+301,Website,Retail,961,354893,14,89,Won
+302,Referral,IT,194,153272,12,40,Won
+303,Referral,Healthcare,16,105108,14,19,Won
+304,LinkedIn,Finance,420,46482,3,82,Lost
+305,Website,IT,774,288125,4,49,Won
+306,Email,Education,359,92527,6,40,Lost
+307,Referral,Retail,620,54541,15,7,Won
+308,Cold Call,Manufacturing,782,333925,1,87,Lost
+309,Website,Healthcare,463,357046,7,63,Won
+310,LinkedIn,Education,434,153218,4,66,Lost
+311,Website,Healthcare,450,68138,5,87,Lost
+312,LinkedIn,Education,549,359769,5,6,Won
+313,Cold Call,Education,623,38721,1,27,Lost
+314,Referral,Manufacturing,795,81950,13,33,Won
+315,Referral,Healthcare,132,14052,8,56,Won
+316,Cold Call,Manufacturing,399,289226,12,30,Won
+317,LinkedIn,Retail,863,360249,13,46,Won
+318,Website,Education,892,399043,1,56,Lost
+319,Website,Education,953,50822,14,41,Won
+320,LinkedIn,Education,597,222034,12,82,Won
+321,Email,Healthcare,127,222353,1,42,Lost
+322,Cold Call,Retail,481,446221,12,47,Won
+323,Website,Education,874,65502,4,56,Lost
+324,LinkedIn,Education,546,51233,7,40,Won
+325,Referral,Manufacturing,351,418482,3,10,Won
+326,LinkedIn,Finance,126,288189,9,25,Won
+327,Referral,Healthcare,754,439364,11,19,Won
+328,Cold Call,IT,159,144201,4,23,Lost
+329,LinkedIn,Manufacturing,788,408014,11,10,Won
+330,Cold Call,Finance,515,253245,13,73,Won
+331,LinkedIn,Education,707,494522,15,73,Won
+332,LinkedIn,Healthcare,894,338842,6,20,Won
+333,Email,IT,490,241844,11,39,Won
+334,Referral,Retail,67,194519,9,10,Won
+335,Referral,Education,472,29717,1,48,Lost
+336,Referral,IT,670,463115,14,12,Won
+337,LinkedIn,Retail,529,211579,8,75,Won
+338,LinkedIn,Finance,927,31507,8,74,Won
+339,Cold Call,Healthcare,629,259366,9,20,Won
+340,Website,Education,115,435180,15,44,Won
+341,Website,Retail,671,100470,1,32,Lost
+342,Email,Education,546,284070,10,21,Won
+343,Referral,Healthcare,949,158317,7,53,Won
+344,Referral,Finance,622,37454,13,81,Won
+345,Referral,IT,347,59548,9,87,Won
+346,Email,Healthcare,268,389444,14,85,Won
+347,LinkedIn,Manufacturing,351,52730,10,85,Won
+348,Cold Call,Healthcare,327,353961,12,85,Won
+349,Email,Manufacturing,619,381633,2,40,Lost
+350,LinkedIn,Education,668,425058,6,17,Won
+351,LinkedIn,IT,671,361512,7,66,Won
+352,Referral,IT,381,171934,3,28,Won
+353,Referral,Education,206,128773,3,20,Lost
+354,Website,Healthcare,874,423201,2,65,Lost
+355,LinkedIn,Finance,914,286054,1,85,Lost
+356,Referral,Retail,144,323129,7,20,Won
+357,Cold Call,Manufacturing,861,373250,13,80,Won
+358,Cold Call,Finance,458,32907,7,47,Lost
+359,Cold Call,Education,635,159384,13,58,Won
+360,Cold Call,Retail,254,172250,13,61,Won
+361,Cold Call,Healthcare,704,309064,8,60,Won
+362,Referral,Education,524,286540,7,21,Won
+363,Cold Call,Retail,151,467704,5,7,Won
+364,Email,Healthcare,577,499838,2,67,Lost
+365,Website,Healthcare,95,410092,3,35,Lost
+366,Email,Retail,160,445707,7,12,Won
+367,Cold Call,Education,915,193283,15,4,Won
+368,Email,IT,415,273196,6,31,Won
+369,Email,IT,393,127722,1,41,Lost
+370,Website,Finance,675,185788,13,19,Won
+371,Cold Call,IT,303,490979,14,61,Won
+372,Cold Call,Finance,490,245196,10,1,Won
+373,Website,IT,272,123065,14,20,Won
+374,LinkedIn,Finance,633,286704,7,15,Won
+375,Referral,Manufacturing,318,73883,1,31,Lost
+376,Email,Finance,822,336532,8,9,Won
+377,Website,Education,621,291046,1,81,Lost
+378,LinkedIn,Retail,257,386724,3,38,Lost
+379,Email,IT,639,194977,4,74,Lost
+380,Email,Manufacturing,690,360337,2,68,Lost
+381,Referral,IT,986,285806,9,65,Won
+382,LinkedIn,Retail,30,214710,14,61,Won
+383,Website,Finance,406,205717,5,3,Won
+384,Referral,IT,363,136419,12,85,Won
+385,Website,Retail,762,406717,6,18,Won
+386,Website,Healthcare,569,187496,14,83,Won
+387,Cold Call,Finance,485,374584,8,81,Won
+388,Cold Call,Manufacturing,74,385413,13,59,Won
+389,Website,Healthcare,216,32967,13,26,Won
+390,Website,Healthcare,965,172569,9,51,Won
+391,LinkedIn,Education,269,29199,13,83,Won
+392,Cold Call,Healthcare,375,462008,13,7,Won
+393,Referral,Healthcare,137,429085,6,56,Won
+394,Email,Finance,460,479047,7,44,Won
+395,Cold Call,Education,718,270845,6,67,Won
+396,Referral,IT,754,232560,2,56,Lost
+397,LinkedIn,Manufacturing,568,164018,6,14,Won
+398,Website,Healthcare,686,165000,5,58,Won
+399,LinkedIn,Finance,446,97369,12,57,Won
+400,Referral,Education,53,391060,14,46,Won
+401,LinkedIn,Education,291,345266,13,8,Won
+402,Website,Finance,662,222971,6,66,Won
+403,Cold Call,IT,156,454947,10,87,Won
+404,Email,IT,139,45249,4,83,Lost
+405,Referral,Healthcare,402,307399,1,78,Lost
+406,Cold Call,Finance,470,204492,6,57,Lost
+407,Website,Retail,150,287589,6,51,Won
+408,Referral,Finance,295,140868,2,4,Lost
+409,Cold Call,Education,540,212892,15,72,Won
+410,Website,Healthcare,803,146466,12,58,Won
+411,Cold Call,Retail,302,373845,15,63,Won
+412,Cold Call,IT,148,457126,2,58,Lost
+413,Cold Call,Finance,465,56027,13,88,Won
+414,Referral,Finance,365,382003,2,71,Lost
+415,LinkedIn,Healthcare,922,167263,14,21,Won
+416,Cold Call,Healthcare,530,127567,2,26,Lost
+417,Cold Call,Manufacturing,819,269009,1,47,Lost
+418,LinkedIn,Retail,387,255055,13,71,Won
+419,Cold Call,Retail,915,55201,2,40,Lost
+420,Email,Finance,746,260958,9,53,Won
+421,Email,Retail,85,75707,6,83,Lost
+422,Website,Education,487,366572,9,45,Won
+423,Cold Call,Retail,665,318169,3,17,Lost
+424,Email,Retail,942,465192,1,16,Lost
+425,LinkedIn,Manufacturing,321,96327,3,42,Lost
+426,Cold Call,Healthcare,980,282051,15,37,Won
+427,Website,Healthcare,211,342952,9,36,Won
+428,Cold Call,Finance,320,332137,9,12,Won
+429,LinkedIn,Finance,182,320278,10,20,Won
+430,Cold Call,Finance,649,387819,15,78,Won
+431,Referral,Retail,52,442661,14,4,Won
+432,Website,IT,981,346306,13,74,Won
+433,Referral,Finance,225,412107,10,54,Won
+434,LinkedIn,Finance,41,271115,15,81,Won
+435,LinkedIn,Healthcare,667,168384,8,32,Won
+436,Email,Healthcare,474,48258,12,8,Won
+437,Cold Call,Education,435,263887,8,27,Won
+438,Referral,Retail,157,173883,14,41,Won
+439,Referral,Education,143,408807,6,66,Won
+440,LinkedIn,IT,336,136740,8,16,Won
+441,Referral,Education,263,83860,2,7,Lost
+442,Referral,Education,894,332635,7,32,Won
+443,Cold Call,Healthcare,966,312874,12,41,Won
+444,Cold Call,Manufacturing,520,279864,8,64,Won
+445,Referral,Education,33,57211,7,65,Won
+446,Email,Manufacturing,230,315840,6,7,Won
+447,Website,Healthcare,516,323271,15,84,Won
+448,Email,Healthcare,559,14287,14,14,Won
+449,Email,Manufacturing,913,148659,12,47,Won
+450,Email,Healthcare,56,220020,1,73,Lost
+451,LinkedIn,Manufacturing,381,300048,5,10,Won
+452,Email,Retail,471,410767,9,36,Won
+453,LinkedIn,Finance,635,72291,3,13,Lost
+454,Email,Healthcare,823,187778,9,47,Won
+455,Cold Call,Manufacturing,626,276926,7,65,Won
+456,Website,IT,49,81846,12,43,Won
+457,Email,Retail,477,88087,10,66,Won
+458,Cold Call,Healthcare,963,331424,6,21,Won
+459,Email,Retail,767,451766,5,76,Won
+460,Referral,Retail,858,277236,9,63,Won
+461,LinkedIn,Healthcare,496,437687,1,48,Lost
+462,Referral,Finance,122,228387,10,40,Won
+463,Website,Retail,495,149214,11,75,Won
+464,LinkedIn,Manufacturing,748,36924,10,62,Won
+465,Cold Call,Retail,654,388107,10,49,Won
+466,Cold Call,Finance,258,26552,10,90,Lost
+467,Website,Manufacturing,29,241231,6,54,Lost
+468,Cold Call,Education,717,116897,7,65,Won
+469,LinkedIn,Education,903,454793,12,8,Won
+470,Cold Call,Retail,222,304066,6,85,Lost
+471,Email,Retail,395,174496,3,59,Lost
+472,LinkedIn,Healthcare,569,195748,11,88,Won
+473,Referral,Retail,505,110801,4,36,Won
+474,LinkedIn,Healthcare,240,166035,13,37,Won
+475,Cold Call,Finance,731,266378,6,62,Won
+476,Referral,Retail,966,499939,13,36,Won
+477,Referral,IT,597,364744,9,49,Won
+478,Email,Healthcare,987,415308,13,19,Won
+479,Referral,IT,304,384415,2,45,Lost
+480,Email,Finance,272,401820,8,28,Won
+481,Cold Call,Retail,287,499173,9,90,Won
+482,Referral,Manufacturing,121,332792,12,76,Won
+483,Cold Call,Manufacturing,61,361185,15,68,Won
+484,Cold Call,Finance,248,37520,2,53,Lost
+485,Referral,Finance,493,62714,11,18,Won
+486,Website,Retail,961,92806,7,84,Won
+487,Email,Education,676,114572,13,37,Won
+488,Referral,Healthcare,671,41018,15,12,Won
+489,LinkedIn,Manufacturing,557,397284,12,5,Won
+490,Cold Call,Education,913,449146,3,5,Won
+491,Email,Education,200,402693,14,38,Won
+492,Website,IT,315,307775,10,14,Won
+493,Referral,Healthcare,475,346232,9,68,Won
+494,Email,Manufacturing,881,274352,8,35,Won
+495,Cold Call,IT,348,95193,12,59,Won
+496,Referral,Finance,200,17384,12,44,Won
+497,Referral,Retail,700,407034,4,23,Won
+498,LinkedIn,Finance,928,222593,14,55,Won
+499,LinkedIn,Healthcare,98,220152,11,13,Won
+500,Cold Call,Manufacturing,498,179660,15,32,Won

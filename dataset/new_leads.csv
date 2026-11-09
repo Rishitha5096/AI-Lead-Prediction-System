@@ -1,0 +1,7 @@
+source,industry,employee_count,expected_revenue,interactions,lead_age_days
+Website,IT,150,100000,7,15
+Referral,Healthcare,100,75000,8,12
+Cold Call,Retail,20,15000,1,50
+LinkedIn,Finance,220,105000,9,18
+Email,Education,30,25000,2,40
+

@@ -1,0 +1,6 @@
+source,industry,employee_count,expected_revenue,interactions,lead_age_days,predicted_outcome,won_probability,lead_category
+Website,IT,150,100000,7,15,Won,92.58532059068474,Hot
+Referral,Healthcare,100,75000,8,12,Won,99.2088988060565,Hot
+Cold Call,Retail,20,15000,1,50,Lost,0.0064927884706658424,Cold
+LinkedIn,Finance,220,105000,9,18,Won,98.22481028378338,Hot
+Email,Education,30,25000,2,40,Lost,0.04571010576749137,Cold
